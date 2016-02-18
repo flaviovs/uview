@@ -11,5 +11,8 @@
             "name": "Flávio Veloso",
             "email": "flaviovs@magnux.com"
         }
-    ]
+    ],
+	"autoload": {
+		"classmap": ["src/"]
+	}
 }
