@@ -46,7 +46,7 @@ class Registry {
 	}
 
 	public function get( $name ) {
-		$path = $this->path . "/$name.php";
+		$path = $this->path . DIRECTORY_SEPARATOR . "$name.php";
 		if ( ! file_exists($path) ) {
 			throw new \RuntimeException("No such view '$name' found in '$this->path'");
 		}
