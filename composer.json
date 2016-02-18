@@ -1,0 +1,15 @@
+{
+    "name": "flaviovs/uview",
+    "description": "Micro view templating system for PHP",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flávio Veloso",
+            "email": "flaviovs@magnux.com"
+        }
+    ]
+}
